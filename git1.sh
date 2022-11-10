@@ -11,12 +11,6 @@ branch="main"
 git add .
 read -p "Enter your commit messgae: " commit
 git commit -m $commit
-git push -u $branch
+git push -u "$branch"
 echo -e "\e[31m code has been pushed. \e[0m"
 
-# git add .
-# read -p "Enter your commit message: " Commit_message
-# git commit -m "$Commit_message" 
-# git push
-# # git commit -m "auto commit" $1
-# # git push origin $branch
