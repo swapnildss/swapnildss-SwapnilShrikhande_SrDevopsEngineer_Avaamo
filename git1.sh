@@ -10,6 +10,3 @@ git commit -m $commit
 git push -u "$branch"
 echo -e "\e[31m code has been pushed. \e[0m"
 
-
-# 2. How do you find a list of files that have changed in a particular commit?
-git log
